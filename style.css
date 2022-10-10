@@ -1,0 +1,77 @@
+h1,p,button{
+    color: aqua;
+
+
+}
+/* for remove underline in link */
+a:link{
+    text-decoration: none;
+}
+/* for after h3 heading which paragraph its color change */
+h3+p{
+    color: rgb(28, 28, 180);
+}
+/* for before any paragraph h3 heading color change */
+p~h3{
+    color: blueviolet;
+}
+a:hover{
+    color: brown;
+}
+/* if we clicked it its color change */
+a:active{
+    color: rgb(136, 255, 0);
+}
+/* after visit the link its color change */
+a:visited{
+    color: rgb(243, 168, 55);
+}
+input [type="text"]:focus{
+    background-color: aquamarine;
+}
+#example::first-letter{
+    color: red;
+    font-size: 40px;
+}
+#example::first-line{
+    color: rgb(22, 199, 131);
+    font-size: 20px;
+}
+/* before the "class" add anything */
+.para::before{
+    content: "+";
+
+}
+/* after the"class" add anny thig */
+.para::after{
+    content: "-";
+    
+}
+button{
+    padding: 20px;
+    margin: 30px;
+    border-radius: 22px;
+}
+#mar{
+    background-color: aqua;
+    
+}
+.ab{
+    text-align: 2px;
+    text-indent: 20px;
+    word-spacing: 20px;
+    letter-spacing: 6px;
+
+}
+.ac{
+    text-shadow: 5px 3px 10px rgb(151, 93, 216);
+}
+.a{
+    text-shadow: 5px 3px 10px rgb(132, 56, 5);
+}
+.b{
+    border: 2px solid black;
+    margin-left:200px;
+    margin-right: 150px;
+}
+
